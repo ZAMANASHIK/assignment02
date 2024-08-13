@@ -1,6 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.head{
+    top: 0;
+    left: 0;
+    width: 1490px;
+    height: 715px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
 .flex-aliment{
     display: flex;
 }
+.color{
+    color: rgb(255, 255, 255);
+}
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 37px; */
+}
+.band{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    text-align: left;
+    padding-left: 3rem;
+    align-items: center
+}
+.nav-item{
+    margin-right: 47px;
+}
 .nav-list{
+    align-items: center;
+    font-size: 18px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
     text-decoration: none;
+}
+.btn{
+    background-color: rgb(230, 83, 60);
+    font-size: 18px;
+    color: white;
+    padding: 18px 22px;
+    border-radius:16px ;
 }

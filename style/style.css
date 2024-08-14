@@ -23,7 +23,7 @@
     position: absolute;
     width: 1490px;
     height: 715px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient (180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0));
 }
 .flex-aliment{
     display: flex;
@@ -72,6 +72,7 @@ nav li a{
     margin-bottom: 0;
 }
 .dif{
+    color: white;
     font-family: 'Miama';
     font-weight: 400 ;
     font-size: 78px;
@@ -82,18 +83,91 @@ nav li a{
     
 }
 .banner-content{
+    align-items: center;
     padding-left: 10px;
     margin: 0px 0px 700px 234px ;
+    justify-content: space-between;
 
+}
+p{
+    font-size: 16px;
 }
 .btn2{
     box-sizing: border-box;
     font-size: 18px;
-    color: white;
+    color: rgb(210, 78, 78);
     padding: 18px 22px;
     border-radius:16px ;
     border: 2px solid white;
 }
 img{
     margin: 0px 214px 610px 0 ;
+}
+.box1 {
+    backdrop-filter: blur(0.6rem);
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 16.3rem;
+    right: 8.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.1rem 0 1rem 0;
+    width: 12.1rem;
+    box-sizing: border-box;
+}
+.con1 {
+    margin: 0 1.9rem 0.3rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    color: #FFFFFF;
+}
+.free-workout-videos{
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+.box2 {
+    backdrop-filter: blur(0.6rem);
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    left: 59%;
+    bottom: 4rem;
+    translate: -50% 0;
+    width: 12.9rem;
+    height: 5rem;
+    color: white
+    
+}
+.con2 {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+    line-height: 1;
+    
+}
+.video-tutorial {
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: left;
+
 }
